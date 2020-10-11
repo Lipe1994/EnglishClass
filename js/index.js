@@ -17,7 +17,7 @@ function generateTemplateRow(item){
     <tr>
     <td>${item.name}</td>
     <td>${item.traduction}</td>
-    <td><img src="images/${item.name}.jpg" alt="${item.name}" height="150" /></td>
+    <td><img src="images/${item.name}.jpg" alt="${item.name}" width="300" /></td>
     <td>
       <audio controls="controls">
         <source src="audios/${item.name}.m4a" type="audio/aac" />
